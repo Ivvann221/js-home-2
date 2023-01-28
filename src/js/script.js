@@ -57,16 +57,99 @@
 //     alert('Помилка');
 //   }
 
-//3
 
-// let chuslo = prompt('Введіть трьох значне число')
-// if(chuslo >= 100 && chuslo < 1000){
-//   if()
+// 3.
+
+//  let number = prompt("Введіть трьох значне число");
+// if(number > 99 && number < 999){
+//  if (number[0] == number[1] || number[0] == number[2] || number[1] == number[0] || number[1] == number[2] || number[2] == number[0] || number[2] == number[1]) {
+//    alert("є")
+//  } else {
+//   alert("нема");
+//  }
 // }else{
-//   alert('Помилка')
+//   alert("Помилка")
 // }
 
-function name(from, text){
-  alert(from, text);
-}
-name('anna' + 'qqq')
+// 4.
+
+// let year = prompt("Введіть рік");
+// if(year > 0){
+//   if(year % 4 == 0 && year % 100 != 0 ){
+//     alert("Високосний")
+//   }else{
+//     alert("Не високосний")
+//   }
+// }else{
+//   alert("Помилка")
+// }
+
+// 5
+
+
+// let number = prompt("Введіть пятизначне число","")
+//    if((number > 9999)&&(number < 100000)){
+//  ---------------------------------
+//    }
+// else{
+// alert("Помилка");
+
+// }
+
+
+// 6
+// let euro = 10;
+// let ukr = 3;
+// let azerb = 6;
+// let usd = prompt("Введіть кількість USD", )
+// if(usd > 0){
+//     let choice = prompt("Виберіть валюту: eur, uan, azn");
+//         if(choice == "eur" ){
+//             let countsEUR = usd * euro;
+//             alert(countsEUR);
+//          }else if (choice == "uan" ){
+//              let countsUan =  usd * ukr;
+//              alert(countsUan);
+//          }else if (choice == "azn"){
+//              let countsAzn =  usd * azerb;
+//              alert(countsAzn);
+//          }
+// }else{
+//     alert("Помилка")
+// }
+
+// 7
+
+// let suma = prompt("Введіть суму покупки");
+// let sum;
+// let sale;
+
+// if(suma > 200){
+//     if(suma >= 200 && suma < 300){
+//         sale = suma * 0.03;
+//          sum = suma - sale;
+//         alert(`Сума до сплати ${sum}`) 
+//     }
+//     else if(suma >= 300 && suma < 500){
+//         sale = suma * 0.05;
+//          sum = suma - sale;
+//         alert(`Сума до сплати ${sum}`) 
+//     }else{
+//         sale = suma * 0.07;
+//          sum = suma - sale;
+//         alert(`Сума до сплати ${sum}`) 
+//     }
+// }else{
+//     alert(`Сума без знижки ${suma}`)
+// }
+
+// 8 
+
+// let lenght = prompt("Введіть довжину кола")
+// let a = 2 * 3.14 * lenght;
+// let b  = 30;
+// if (a <= b){ 
+//  alert("Вписується")
+// }else{
+//     alert("не вписується")
+// }
