@@ -26,31 +26,31 @@
 //    if(number == 0 ){
 //     alert('~');
 //    }
-//    if(number == 1 ){
+//    else if(number == 1 ){
 //     alert('!');
 //    }
-//    if(number == 2 ){
+//   else if(number == 2 ){
 //     alert('@');
 //    }
-//    if(number == 3 ){
+//   else if(number == 3 ){
 //     alert('#');
 //    }
-//    if(number == 4 ){
+//   else if(number == 4 ){
 //     alert('$');
 //    }
-//    if(number == 5 ){
+//   else if(number == 5 ){
 //     alert('%');
 //    }
-//    if(number == 6 ){
+//   else if(number == 6 ){
 //     alert('^');
 //    }
-//    if(number == 7 ){
+//   else if(number == 7 ){
 //     alert('&');
 //    }
-//    if(number == 8 ){
+//   else if(number == 8 ){
 //     alert('*');
 //    }
-//    if(number == 9 ){
+//   else if(number == 9 ){
 //     alert('(');
 //    }
 //   }else{
@@ -86,14 +86,25 @@
 
 // 5
 
-
-// let number = prompt("Введіть пятизначне число","")
-//    if((number > 9999)&&(number < 100000)){
-//  ---------------------------------
-//    }
-// else{
+// let number = prompt("Введіть пятизначне число","");
+// let arrNumber = number.split('');
+// let b;
+// let a;
+//    if(number > 9999 && number < 100000 ){
+//   for(let i = 0; i < arrNumber.length; i++){
+//      a = (arrNumber.length - 1) - i;
+//      b = arrNumber[a] - arrNumber[i];
+//     if(b != 0){
+//         break;
+//     }
+//   }
+//   if(b == 0){
+//     alert("Паліндр");
+// }else{
+//     alert("не паліндр");
+// }
+//    }else{
 // alert("Помилка");
-
 // }
 
 
@@ -153,3 +164,80 @@
 // }else{
 //     alert("не вписується")
 // }
+
+
+
+// 9
+
+// let questionOne = prompt("1. Скільки буде 2 + 2, (3. 4. 6.)",);
+// let counter = 0;
+// while(questionOne == 4){
+//         counter++;
+//         break;
+// }
+// let questionTwo = prompt("2. Скільки буде 2 + 3, (4. 5. 6.)",);
+// while(questionTwo == 5){
+//     counter++;
+//     break;
+
+// }
+// let questionThree = prompt("3. Скільки буде 2 + 4, (3. 1. 6.)",);
+// while(questionThree == 6){
+//     counter++;
+//     break;
+// }
+// alert(`ви набрали ${counter} бали`);
+
+// 10
+
+// const day = prompt('Введіть день');
+// const month = prompt('Введіть місяць');
+// const year = prompt('Введіть рік');
+// let dayOne;
+// let monthOne;
+// let yearOne;
+// let yearTwo;
+
+// if (year > 0 && month > 0 && month <= 12 && day > 0) {
+//     if (day > 0 && day <= 31) {
+//         if (day == 31){
+//             dayOne = "1";
+//         }else{
+//             dayOne = (Number(day) + Number(1));
+//     }
+// }
+// if(month > 0 && month <= 12){
+//     if (month == 12){
+//         monthOne = "1";
+//     }else{
+//        monthOne = (Number(month) + Number(1)); 
+// }
+// }
+// if(year >= 1500){
+//     if (year % 4 == 0 && year % 100 != 0) {
+//         yearTwo = "Високосний";
+//         yearOne = (Number(year) + Number(1));
+//     } else {
+//         yearTwo = "Не високосний";
+//         yearOne = (Number(year) + Number(1));
+//     }
+//     alert(dayOne + "." + monthOne + "." + yearOne + " " + yearTwo);
+// }else{
+//     alert("Введіть рік від '1500 років'");
+// }
+// } else {
+//     alert("Помилка");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
